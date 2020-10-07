@@ -1,5 +1,7 @@
 import {combineReducers} from 'redux'
-import count from './count'
+import readEvent from './events'
 
-export default combineReducers({count})
+console.log(readEvent)
+
+export default combineReducers({readEvent})
 // export default combineReducers({ foo, bar, baz})
